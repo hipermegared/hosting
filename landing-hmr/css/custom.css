@@ -1,0 +1,280 @@
+/* HMR
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* 
+violeta: #4F2958; #fondos
+celeste-oscuro: #1B676B; #fondos
+cyan: #88C425; 
+naranja: #BEF202;
+blanco: #EAFDE6;
+*/
+
+
+html {
+    overflow-x: hidden;
+}
+
+header,
+footer {
+    text-align: center;
+    font-weight: 600;
+    color: #1B676B;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #BEF202;
+    z-index: 9999999;
+}
+
+footer {
+    position: relative;
+    top: inherit;
+    left: inherit;
+}
+
+header a,
+footer a {
+    color: #4F2958;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+header a:hover,
+footer a:hover {
+    color: #EAFDE6;
+}
+
+footer a {
+    text-transform: none;
+    /*font-weight:normal;*/
+}
+
+
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.button {
+    border-radius: 100px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+li {
+    color: #88C425;
+    list-style: none;
+}
+
+.nota {
+    /*opacity: .5;*/
+}
+
+.value{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+}
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.section {
+    padding: 8rem 0 7rem;
+    text-align: center;
+}
+
+.section-heading,
+.section-description {
+    margin-bottom: 1.2rem;
+}
+
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hero .hero-heading {
+    font-weight: 400;
+}
+
+.hero .button.button-primary {
+    background-color: #BEF202;
+    border-color: #BEF202;
+    color: #4F2958;
+    font-weight: 600;
+}
+
+.servers {
+    /*position: relative;*/
+}
+
+.server {
+    position: relative;
+    width: 100%;
+    padding: 50px 0 0;
+    margin: 0;
+    z-index: -9999999999;
+}
+
+
+/* Plan Starter
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.starter {
+    background-image: url('../images/fondo1.jpg');
+    background-size: cover;
+    color: #EAFDE6;
+    padding-bottom: 5rem;
+}
+
+.starter .nota {
+    color: #88C425;
+    padding-top: 4rem;
+    font-size: 1.6rem;
+}
+
+.value-multiplier {
+    margin-bottom: .5rem;
+    color: #BEF202;
+    font-weight: 400;
+}
+
+.value-heading {
+    margin-bottom: .3rem;
+    letter-spacing: .1rem;
+        font-size: 1.9rem;
+}
+
+.value-description {
+    font-weight: 300;
+    color: #4F2958;
+    letter-spacing: .1rem;
+}
+
+
+/* Contrata
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.section.contrata {
+    padding: 8rem 0;
+    background: #1B676B;
+}
+
+.contrata .titulo {
+    color: #BEF202;
+}
+
+.contrata .button.button-primary {
+  color: #1B676B;
+  background-color: #EAFDE6;
+  border-color: #1B676B;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.contrata .button.button-primary:hover {
+    background-color: #BEF202;
+    border-color: #BEF202;
+    color: #4F2958;
+
+}
+
+
+/* Plan Pro
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.pro {
+    background-image: url('../images/fondo2.jpg');
+    background-size: cover;
+    color: #EAFDE6;
+    padding-bottom: 5rem;
+}
+
+
+/* Ademas
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.ademas {
+    background-color: #4F2958;
+    background-size: cover;
+    color: #EAFDE6;
+}
+
+.ademas p {
+    color: #88C425;
+}
+
+.ademas .section-heading {
+    font-weight: bold;
+}
+
+.ademas .section-description {
+    margin-bottom: 4rem;
+}
+
+.ademas .separador{
+  color: #EAFDE6;
+}
+/* Bigger than 550 */
+
+@media (min-width: 550px) {
+    .hero {
+        padding-bottom: 12rem;
+        text-align: left;
+        height: 165px;
+    }
+    .server {
+        width: 150%;
+        margin: -10% -30%;
+        padding: 0px;
+    }
+    .hero-heading {
+        font-size: 2.4rem;
+    }
+}
+
+
+/* Bigger than 750 */
+
+@media (min-width: 750px) {
+    .hero {
+        height: 190px;
+    }
+    .hero-heading {
+        font-size: 2.6rem;
+    }
+    .hero {
+        padding: 16rem 0 14rem;
+    }
+    .section-description {
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .server {
+        width: 200%;
+        margin: 0% -70%;
+    }
+    .ademas {
+        /*padding: 15rem 0 8rem;*/
+    }
+}
+
+
+/* Bigger than 1000 */
+
+@media (min-width: 1000px) {
+    .hero {
+        padding: 22rem 0;
+    }
+    .hero-heading {
+        font-size: 3.0rem;
+    }
+    .server {
+        width: 200%;
+        margin: -10% -70%;
+    }
+}
