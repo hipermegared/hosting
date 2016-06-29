@@ -82,7 +82,7 @@ li {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .section {
-    padding: 8rem 0 7rem;
+    padding: 8rem 0;
     text-align: center;
 }
 
@@ -118,15 +118,22 @@ li {
     z-index: -9999999999;
 }
 
-
-/* Plan Starter
+/* Planes
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.plan{
+    padding: 8rem 0 0;
+
+    background-size: cover;
+    color: #EAFDE6;
+    border-top: 5px solid #4F2958;
+}
+
+/*  Starter */
 
 .starter {
     background-image: url('../images/fondo1.jpg');
-    background-size: cover;
-    color: #EAFDE6;
-    padding-bottom: 5rem;
+
 }
 
 .starter .nota {
@@ -153,13 +160,21 @@ li {
     letter-spacing: .1rem;
 }
 
+/* Pro */
 
-/* Contrata
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.pro {
+    background-image: url('../images/fondo2.jpg');
+}
 
-.section.contrata {
-    padding: 8rem 0;
-    background: #1B676B;
+/* Contrata */
+
+.contrata {
+    margin-top: 4rem;
+    padding: 6rem 0;
+    background: rgba(27,103,107,.4);
+    border-bottom: 5px solid #1B676B;
+    /*border-top: 5px solid #1B676B;*/
+
 }
 
 .contrata .titulo {
@@ -169,7 +184,7 @@ li {
 .contrata .button.button-primary {
     color: #1B676B;
     background-color: #EAFDE6;
-    border-color: #1B676B;
+    border-color: #EAFDE6;
     font-weight: 600;
     font-size: 1.3rem;
 }
@@ -177,19 +192,9 @@ li {
 .contrata .button.button-primary:hover {
     background-color: #BEF202;
     border-color: #BEF202;
-    color: #4F2958;
+    /*color: #1B676B;*/
 }
 
-
-/* Plan Pro
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.pro {
-    background-image: url('../images/fondo2.jpg');
-    background-size: cover;
-    color: #EAFDE6;
-    padding-bottom: 5rem;
-}
 
 
 /* Ademas
@@ -217,6 +222,8 @@ li {
     color: #EAFDE6;
 }
 
+/* Media queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Bigger than 550 */
 
