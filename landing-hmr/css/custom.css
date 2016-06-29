@@ -319,7 +319,7 @@ li {
     }
     .server {
         width: 200%;
-        margin: -10% -70%;
+        margin: -13% -70%;
     }
 }
 
@@ -329,6 +329,6 @@ li {
 @media (min-width: 1200px) {
     .server {
         width: 200%;
-        margin: -15% -70%;
+        margin: -20% -70%;
     }
 }
