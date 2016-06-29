@@ -118,22 +118,22 @@ li {
     z-index: -9999999999;
 }
 
+
 /* Planes
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.plan{
+.plan {
     padding: 8rem 0 0;
-
     background-size: cover;
     color: #EAFDE6;
     border-top: 5px solid #4F2958;
 }
 
+
 /*  Starter */
 
 .starter {
     background-image: url('../images/fondo1.jpg');
-
 }
 
 .starter .nota {
@@ -160,21 +160,22 @@ li {
     letter-spacing: .1rem;
 }
 
+
 /* Pro */
 
 .pro {
     background-image: url('../images/fondo2.jpg');
 }
 
+
 /* Contrata */
 
 .contrata {
     margin-top: 4rem;
     padding: 6rem 0;
-    background: rgba(27,103,107,.4);
+    background: rgba(27, 103, 107, .4);
     border-bottom: 5px solid #1B676B;
     /*border-top: 5px solid #1B676B;*/
-
 }
 
 .contrata .titulo {
@@ -194,7 +195,6 @@ li {
     border-color: #BEF202;
     /*color: #1B676B;*/
 }
-
 
 
 /* Ademas
@@ -222,8 +222,10 @@ li {
     color: #EAFDE6;
 }
 
+
 /* Media queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 
 /* Bigger than 550 */
 
@@ -242,7 +244,6 @@ li {
 /* Smaller than 749 */
 
 @media (max-width: 749px) {
-    
     .six.columns,
     .four.columns {
         width: 100%;
@@ -290,22 +291,22 @@ li {
     .hero .one-half.column.data {
         width: 100%;
     }
-    
     .server {
         display: none;
     }
-    .hero .one-half.column.data .eo{
+    .hero .one-half.column.data .eo {
         display: none;
     }
-    h2{
+    h2 {
         font-size: 3.6rem;
         line-height: 1.25;
         letter-spacing: -.1rem;
     }
-    h5.value-heading{
-            font-size: 1.3rem;
+    h5.value-heading {
+        font-size: 1.3rem;
     }
 }
+
 
 /* Bigger than 1000 */
 
@@ -322,10 +323,10 @@ li {
     }
 }
 
+
 /* Bigger than 1200 */
 
 @media (min-width: 1200px) {
-    
     .server {
         width: 200%;
         margin: -15% -70%;
