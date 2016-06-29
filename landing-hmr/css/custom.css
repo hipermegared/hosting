@@ -314,3 +314,13 @@ li {
         margin: -10% -70%;
     }
 }
+
+/* Bigger than 1200 */
+
+@media (min-width: 1200px) {
+    
+    .server {
+        width: 200%;
+        margin: -15% -70%;
+    }
+}
