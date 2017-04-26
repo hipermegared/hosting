@@ -41,7 +41,8 @@ disponibles sin requerir de conocimientos técnicos__.
 * Hotlinking
 * Logs y reportes de seguridad
 
-__Costo:__ __$1000__ anuales (o $100 mensuales).
+__Costo:__ __$2000__ anuales.
+Incluye el plan de Hosting HMR.
 
 ## Plan Pro
 
@@ -76,7 +77,8 @@ __Este plan es ideal para negocios en rápida expansión y desarrolladores__.
 * Hotlinking
 * Logs y reportes de seguridad
 
-__Costo:__ __$1500__ anuales (o $140 mensuales).
+__Costo:__ __$2500__ anuales.
+Incluye el plan de Hosting HMR
 
 
 ## Servicios y otros planes
